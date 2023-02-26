@@ -1,0 +1,77 @@
+node_modules
+build
+# Local Netlify folder
+.netlify
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+.firebase/
+
+.env
+
+# Contentlayer
+.contentlayer
+
+.vscode
+hooii-8.txt
+abc.txt-1
+abc.txt-2
+abc.txt-3
+abc.txt-4
+abc.txt-5
+abc.txt-6
+abc.txt-7
+abc.txt-8
+abc.txt-9
+backup
+backup.txt
+hooii-0.txt
+hooii-1.txt
+hooii-2.txt
+hooii-3.txt
+hooii-4.txt
+hooii-5.txt
+hooii-6.txt
+hooii-7.txt
+hooii-8.txt
+hooii-9.txt
+hooii-10.txt
+hooii-11.txt
+hooii-12.txt
+hooii-13.txt
+hooii-14.txt
+hooii-15.txt
+hooii-16.txt
+hooii-17.txt
+hooii-18.txt
+hooii-19.txt

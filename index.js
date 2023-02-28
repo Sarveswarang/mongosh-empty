@@ -3,7 +3,8 @@ import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-d
 dotenv.config()
 import express from "express";
 import { MongoClient } from "mongodb";
-import movieRouter from "./router/movie.router.js"
+import movieRouter from "./router/movie.router.js";
+import cors from "cors";
 const app = express();
 
 const PORT = process.env.PORT;
@@ -129,6 +130,7 @@ app.get("/", function (request, response) {
 //     id: "109",
 //   },
 // ];
+app.use(cors());
 app.use(express.json());
 app.use("/movie",movieRouter)
 app.listen(PORT, () => console.log(`The server started in: ${PORT} ✨✨`));
